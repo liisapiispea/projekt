@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+
+.gallery-image img {
+    width: 100%;
+}
+
+header .header-banner {
+
+background-image: url("pildid/taustapilt.jpg");
+box-shadow: inset 0px 100px 250px 10px #FFFFFF;
+width: 100%;
+height: calc(100vh - 400px);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: table;
+}
+
+header .pealkiri {
+    display:flex;
+    justify-content: center;    
+    text-align: center;
+}
+
+header .pealkiri h1 {
+    vertical-align: center;
+    
+    z-index:2;
+    font-family: 'Lato', sans-serif;
+}
+
+header .logo {
+    float:left;
+    
+    padding: none;
+    margin-left: 30px;
+    height: 60px;
+    width: 60px;
+    background-color: #ffffff;
+    border-radius: 30px;    
+}
+
+header .logo img{
+    width: 60px;
+    float: left;   
+}
+
+header .riba {
+    margin-top: 50px;
+    text-align: center;
+    height: 60px;
+}
+
+header .siseriba {
+   float:right;
+   width:400px;
+   height:60px; 
+   text-align: center;
+   border-radius: 25px;
+    
+  background-color: #ffffff;
+    display: flex;
+}
+
+
+header .siseriba nav {
+    display: :flex;
+}
+
+header .siseriba nav ul {
+
+padding: 0;
+font-family: 'Roboto', sans-serif;
+text-align: center; 
+float: right;
+
+
+}
+
+header .siseriba nav ul li {
+float:left;
+width: fit-content;
+display: inline-block;
+padding: none;
+margin: 0;
+
+}
+header .siseriba img {
+    float:right;
+    display: block;
+    width: 16%;
+    background-color: #C9CBC9;
+    border-radius: 26px;
+    margin-left: 10px;
+    
+}
+header h1 {
+
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+
+font-size: 60px;
+color: #000000;
+line-height: 70px;
+letter-spacing: 3px;
+
+}
+
+header h2 {
+
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 15px;
+letter-spacing: 5px;
+color: #ffffff;
+
+
+}
+
+nav ul li a {
+
+font-family: 'Roboto', sans-serif;
+font-weight: 800;
+font-size: 16px;
+letter-spacing: 1px;
+color: #172029;
+
+text-decoration: none;
+
+}
+
+.ylemineriba {
+    font-family: 'Roboto', sans-serif;
+font-weight: 200;
+font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.kast {
+    
+    width: 800px;
+    height: 200px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 25px;
+    padding-top: 10px;
+    margin:auto;
+
+}
+
+.kast button {
+    background-color: #706969;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+footer {
+
+width: calc(100% - 80px);
+padding: 40px 40px;
+background-color: #706969;
+margin-top: 20px;
+overflow: hidden;
+}
+
+
+footer ul {
+
+float: left;
+padding-left: 0px;
+}
+
+footer ul li {
+
+display: block;
+padding: 0 0 10px 0;
+}
+
+footer ul li p {
+
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 18px;
+letter-spacing: 2px;
+color: #ffffff;
+text-transform: uppercase;
+
+}
+
+footer ul li a {
+
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 2px;
+color: #ffffff;
+
+text-decoration: none;
+display: inline-block;
+
+}
+
+.footer-paremal {
+width: fit-content;
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 18px;
+float: right;
+display: inline-block;
+    color: #ffffff;
+
+}
+
+.footer-paremal#ikoonid {
+width: fit-content;
+float: right;
+display: inline-block;
+margin-bottom: 10px;
+padding: 10px;
+
+}
+
+.footer-paremal form {
+    width: fit-content;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-paremal form button {
+    background-color: #CDE1D2;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer-paremal form input{
+    height: 35px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 950px) {   
+
+header .header-banner {
+      height: calc(130vh - 400px);
+}   
+
+header h1 a {
+      font-size: 80px;
+}  
+
+header h2 {
+      font-size: 24px;
+      margin-top: 20px;
+}
+
+header nav ul li {
+       padding: 10px 20px;
+}
+}
+
