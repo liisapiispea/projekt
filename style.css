@@ -7,7 +7,7 @@
 
 header .header-banner {
 
-background-image: url("pildid/taustapilt.jpg");
+background-image: url("Pildid/taustapilt.jpg");
 box-shadow: inset 0px 100px 250px 10px #FFFFFF;
 width: 100%;
 height: calc(100vh - 400px);
