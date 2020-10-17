@@ -18,6 +18,7 @@ background-size: cover;
 display: table;
 }
 
+
 header .pealkiri {
     display:flex;
     justify-content: center;    
@@ -33,7 +34,6 @@ header .pealkiri h1 {
 
 header .logo {
     float:left;
-    
     padding: none;
     margin-left: 30px;
     height: 60px;
@@ -66,7 +66,7 @@ header .siseriba {
 
 
 header .siseriba nav {
-    display: :flex;
+    display: flex;
 }
 
 header .siseriba nav ul {
@@ -260,6 +260,10 @@ padding: 10px;
     border-radius: 10px;
 }
 
+#email{
+    padding-left: 10px;
+}
+
 @media only screen and (min-width: 950px) {   
 
 header .header-banner {
@@ -280,3 +284,61 @@ header nav ul li {
 }
 }
 
+/*Hinnakiri*/
+header .header-banner2 {
+
+    background-image: url("Pildid/taustapilt.jpg");
+    box-shadow: inset 0px 100px 250px 10px #FFFFFF;
+    width: 100%;
+    height: calc(100vh - 500px);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+table{
+    margin: 10px auto;
+    width: 500px;
+    border-collapse: collapse;
+    font-family: 'Lato', sans-serif;
+}
+
+.pealkiri2{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.pealkiri2 h3{
+    color: #2A5DB0;
+}
+
+table .left {
+    text-align: left;
+    width: 400px;
+}
+
+table .right{
+    text-align: right;
+}
+table td.right{
+    color: #2A5DB0;
+}
+
+table th{
+    background-color: #d7d7d6;
+    padding: 10px;
+    font-size: larger;
+}
+
+table td{
+    background-color: #f6f6f5;
+    padding: 10px;
+}
+
+.hk_body{
+    background-color: #FFFFFF;
+    opacity: 0.6;
+}
